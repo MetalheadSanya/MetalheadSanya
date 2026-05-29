@@ -1,28 +1,13 @@
 baseURL = "https://metalheadsanya.github.io/"
 languageCode = "en-us"
 title = "MetalheadSanya"
-theme = "PaperMod"
 
 [pagination]
   pagerSize = 10
 
 [params]
   description = "Personal tech blog of MetalheadSanya"
-  defaultTheme = "dark"
-  ShowCodeCopyButtons = true
-  ShowReadingTime = true
-  ShowPostNavLinks = true
 
 [markup]
   [markup.highlight]
     noClasses = false
-
-[module]
-  [[module.imports]]
-    path = "github.com/adityatelange/hugo-PaperMod"
-
-[[menu.main]]
-  identifier = "posts"
-  name = "Posts"
-  url = "/posts/"
-  weight = 10
