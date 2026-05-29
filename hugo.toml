@@ -1,0 +1,10 @@
+baseURL = "https://metalheadsanya.github.io/"
+languageCode = "en-us"
+title = "MetalheadSanya"
+
+[params]
+  description = "Personal tech blog of MetalheadSanya"
+
+[markup]
+  [markup.highlight]
+    noClasses = false
